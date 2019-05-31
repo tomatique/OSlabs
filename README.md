@@ -3,3 +3,7 @@
 <h3>Отчеты по лабораторным работам:</h3>
 [Лабораторная работа №1 (Suzen)](https://github.com/tomatique/OSlabs/tree/master/laba1)
 [Лабораторная работа №3 (Docker)](https://github.com/tomatique/OSlabs/tree/master/laba3)
+[Обычная ссылка в строке](https://www.google.com)
+### Ссылки
+
+Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).

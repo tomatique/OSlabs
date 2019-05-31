@@ -4,5 +4,4 @@
 ![screen](https://i.imgur.com/UcF49SR.png "sucess")​
 
 Ссылка на docker hub:
-https://cloud.docker.com/repository/registry-1.docker.io/tomatique/dockerlab3
-[Обычная ссылка в строке](https://www.google.com)
+[click](https://cloud.docker.com/repository/registry-1.docker.io/tomatique/dockerlab3)

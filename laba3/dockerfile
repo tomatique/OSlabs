@@ -1,0 +1,24 @@
+FROM debian
+WORKDIR /var/www/labaratornaya3.com
+RUN apt-get -qq update && \
+    apt-get autoclean && \
+    apt-get install -y nginx && \
+    rm -rf /var/www/* && \
+    mkdir /var/www/labaratornaya3.com && \
+    mkdir /var/www/labaratornaya3.com/img 
+
+COPY index.html /var/www/labaratornaya3.com
+
+COPY img.jpg /var/www/labaratornaya3.com/img
+
+RUN chmod -R 754 /var/www/labaratornaya3.com && \
+    useradd vladislav && \
+    groupadd shubin && \
+    usermod -aG shubin vladislav && \
+    chown -R vladislav:shubin /var/www/labaratornaya3.com
+
+RUN sed -i 's/html/labaratornaya3.com/g' /etc/nginx/sites-enabled/default && \
+    sed -i 's/www-data/vladislav/g' /etc/nginx/nginx.conf && \
+    sed -i 's/index.htm/index.html/g' /etc/nginx/sites-enabled/default
+
+CMD ["nginx","-g","daemon off;"]

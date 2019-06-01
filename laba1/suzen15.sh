@@ -1,4 +1,2 @@
 #!bin/bash
-cd ..
-ls
-
+echo  "Flag is: $(pwd | grep -o '[0-9a-zA-Z]\{28\}')"

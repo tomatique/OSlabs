@@ -3,5 +3,5 @@
 <h3>Отчеты по лабораторным работам:</h3>
 
 [Лабораторная работа №1 (Suzen),](https://github.com/tomatique/OSlabs/tree/master/laba1)
-[Лабораторная работа №1 (Raid),]https://github.com/tomatique/OSlabs/tree/master/laba2
+[Лабораторная работа №1 (Raid),](https://github.com/tomatique/OSlabs/tree/master/laba2)
 [Лабораторная работа №3 (Docker).](https://github.com/tomatique/OSlabs/tree/master/laba3)
